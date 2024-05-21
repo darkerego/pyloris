@@ -5,7 +5,7 @@ A Denial of Service Tool Written in Python
 ddos
 ====
 
-DDOS tool in python.
+DDOS tool in python. I tend to doubt that this will take down much more than the httpd running on some ten year old router, but I rewrote it anyway just because someone asked.
 
 =============== usage =============
 
