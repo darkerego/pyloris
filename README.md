@@ -9,6 +9,7 @@ DDOS tool in python.
 
 =============== usage =============
 
+<pre>
 usage: python attack.py [-t] [-c] http://www.baidu.com/
 
 positional arguments:
@@ -23,3 +24,4 @@ options:
                         The total number of requests to send.
   -v, --verbosity       Output verbosity.
 
+</pre>
