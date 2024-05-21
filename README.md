@@ -9,10 +9,17 @@ DDOS tool in python.
 
 =============== usage =============
 
-python attack.py [option] http://www.firefoxbug.net/
+usage: python attack.py [-t] [-c] http://www.baidu.com/
 
-    -h : help
+positional arguments:
+  host                  The schema and target ip or hostname, ie "https://example.com"
 
-    -t : lasting time of ddos
+options:
+  -h, --help            show this help message and exit
+  -t TIME, --time TIME  Time to run this attack in seconds. Defaults to 10 minutes or 600 seconds.
+  -c CONCURRENCY, --concurrency CONCURRENCY
+                        How many threads to run at once. Uses Semaphore. Defaults to 100.
+  -r REQUEST_COUNT, --request-count REQUEST_COUNT
+                        The total number of requests to send.
+  -v, --verbosity       Output verbosity.
 
-    -c : numbers of thread to create
